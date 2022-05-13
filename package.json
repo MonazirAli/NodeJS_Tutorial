@@ -1,0 +1,29 @@
+{
+  "name": "nodejstutorial",
+  "version": "1.0.0",
+  "description": "NodeJs Tutorials",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server/server.js",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonazirAli/NodeJS_Tutorial.git"
+  },
+  "author": "MonazirAli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonazirAli/NodeJS_Tutorial/issues"
+  },
+  "homepage": "https://github.com/MonazirAli/NodeJS_Tutorial#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
